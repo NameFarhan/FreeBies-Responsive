@@ -1,13 +1,9 @@
 import React from 'react'
-import { Box, Typography } from '@mui/material'
+import Navbar from './Components/Navbar'
 const App = () => {
   return (
     <>
-    <Box>
-      <Typography>
-        Hello World
-      </Typography>
-    </Box>
+    <Navbar/>
     </>
   )
 }
