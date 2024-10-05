@@ -36,7 +36,7 @@ const Hero = () => {
               sx={{
                 marginTop: {
                   mobile: "10px",
-                  laptop: "150px",
+                  desktop:'100px'
                 },
               }}
             >
@@ -124,7 +124,11 @@ const Hero = () => {
                 height:{
                   mobile:'auto'
                 },
-                objectFit:'cover'
+                objectFit:'cover',
+                marginTop:{
+                  laptop: '70px',
+                  desktop: '40px'
+                }
               }}
               alt="Her image"
               src={heroimage}
