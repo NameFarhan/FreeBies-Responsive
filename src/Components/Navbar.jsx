@@ -4,7 +4,7 @@ import React from "react";
 import logo from "../Images/logo.svg";
 import { styled } from "@mui/material/styles";
 
-const Wrapper = styled(Box)(({ theme }) => ({
+ export const Wrapper = styled(Box)(({ theme }) => ({
   padding: "2vh 150px",
 
   [theme.breakpoints.only("xs")]: {
@@ -27,9 +27,9 @@ const StyledOutlineButton = styled(Button)(({ theme }) => ({
   width: "auto",
   border: "1px solid #F53855",
 
-  [theme.breakpoints.only('lg')]: {
-    fontSize:'18px'
-  }
+  [theme.breakpoints.only("lg")]: {
+    fontSize: "18px",
+  },
 }));
 
 const Navbar = () => {
@@ -97,11 +97,17 @@ const Navbar = () => {
               sm: 6,
             }}
           >
-            <Box sx={{ display: "flex", alignItems: "center", gap: {
-              sm:'10px',
-              md:'25px',
-              lg:'35px'
-            } }}>
+            <Box
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                gap: {
+                  sm: "10px",
+                  md: "25px",
+                  lg: "35px",
+                },
+              }}
+            >
               <Button
                 sx={{
                   color: "#4F5665",
@@ -198,7 +204,7 @@ const Navbar = () => {
                 sm: "center",
                 md: "end",
               },
-              gap:'10px'
+              gap: "10px",
             }}
           >
             <Button
@@ -206,9 +212,9 @@ const Navbar = () => {
                 color: "#0B132A",
                 fontWeight: "700",
                 textTransform: "none",
-                fontSize:{
-                  lg:'18px'
-                }
+                fontSize: {
+                  lg: "18px",
+                },
               }}
               variant="text"
             >
