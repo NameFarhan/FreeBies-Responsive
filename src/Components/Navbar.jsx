@@ -26,10 +26,6 @@ const StyledOutlineButton = styled(Button)(({ theme }) => ({
   height: "auto",
   width: "auto",
   border: "1px solid #F53855",
-
-  [theme.breakpoints.only("lg")]: {
-    fontSize: "18px",
-  },
 }));
 
 const Navbar = () => {
@@ -65,8 +61,8 @@ const Navbar = () => {
               <Box
                 component="img"
                 sx={{
-                  width: "100%", // Full width of the container
-                  height: "auto",
+                  width: "35px", // Full width of the container
+                  height: "35px",
                 }}
                 alt="logo image"
                 src={logo}
@@ -76,9 +72,7 @@ const Navbar = () => {
                   fontWeight: "700",
                   marginLeft: "10px",
                   fontSize: {
-                    xs: "15px",
-                    sm: "15px",
-                    md: "20px",
+                    xs: "20px",
                   },
                 }}
               >
@@ -201,10 +195,14 @@ const Navbar = () => {
               alignItems: "center",
               justifyContent: {
                 xs: "center",
-                sm: "center",
                 md: "end",
               },
               gap: "10px",
+              marginTop:{
+                sm:'1.5px',
+                md:'3px',
+                lg:'7px'
+              }
             }}
           >
             <Button
@@ -212,10 +210,10 @@ const Navbar = () => {
                 color: "#0B132A",
                 fontWeight: "700",
                 textTransform: "none",
-                fontSize: {
-                  lg: "18px",
-                },
-              }}
+                fontSize: '16px',
+                height:'auto',
+                padding:'0' 
+              }}  
               variant="text"
             >
               Sign In
