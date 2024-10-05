@@ -36,7 +36,7 @@ const Hero = () => {
               sx={{
                 marginTop: {
                   mobile: "10px",
-                  laptop: "40px",
+                  laptop: "150px",
                 },
               }}
             >
