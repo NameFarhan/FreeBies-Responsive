@@ -94,7 +94,7 @@ const ChoosePlan = () => {
                   height: 150,
                   width: 150,
                 }}
-                alt="Fre plan image"
+                alt="Free plan image"
                 src={freeplanimage}
               />
               {/* Heading plan */}
@@ -281,7 +281,7 @@ const ChoosePlan = () => {
                   height: 150,
                   width: 150,
                 }}
-                alt="Fre plan image"
+                alt="Standard plan image"
                 src={standardplanimage}
               />
               {/* Heading plan */}
@@ -499,8 +499,8 @@ const ChoosePlan = () => {
                   height: 150,
                   width: 150,
                 }}
-                alt="Fre plan image"
-                src={{premiumplanimage}}
+                alt="Premium plan image"
+                src={premiumplanimage}
               />
               {/* Heading plan */}
               <Typography
