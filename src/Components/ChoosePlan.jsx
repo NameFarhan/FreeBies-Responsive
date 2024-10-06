@@ -500,7 +500,7 @@ const ChoosePlan = () => {
                   width: 150,
                 }}
                 alt="Fre plan image"
-                src={standardplanimage}
+                src={{premiumplanimage}}
               />
               {/* Heading plan */}
               <Typography
@@ -515,7 +515,7 @@ const ChoosePlan = () => {
                   },
                 }}
               >
-                Standard Plan
+                Premium Plan
               </Typography>
 
               {/* Given things to person */}
@@ -718,7 +718,7 @@ const ChoosePlan = () => {
                 Select
               </Button>
             </Box>
-          </Grid2>
+          </Grid2>  
         </Grid2>
       </Box>
     </ThemeProvider>
