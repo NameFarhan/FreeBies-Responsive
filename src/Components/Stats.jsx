@@ -14,9 +14,10 @@ const Stats = () => {
             padding: {
               mobile: "3vh 10px",
               tablet: "3vh 30px",
-              laptop: "3vh 100px",
-              desktop: "3vh 150px",
+              laptop: "6vh 100px",
+              desktop: "6vh 150px",
             },
+            boxShadow:'1px 15px 55px -16px #ddd'
           }}
         >
           <Grid2
