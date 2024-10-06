@@ -181,7 +181,7 @@ const Navbar = () => {
           </Grid2>
         </Hidden>
 
-        {/* sign sign up button is here */}
+        {/* sign in sign up button is here */}
         <Grid2
           item
           size={{
