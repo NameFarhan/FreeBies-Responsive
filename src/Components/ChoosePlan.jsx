@@ -1,6 +1,7 @@
 import { Box, Button, Grid2, ThemeProvider, Typography } from "@mui/material";
 import React from "react";
 import { Breakpointstheme } from "../Breakpoints Theme/Theme";
+// images used in this page
 import freeplanimage from "../Images/Free.svg";
 import tick from "../Images/tick.svg";
 import standardplanimage from "../Images/Standard.svg";
@@ -243,7 +244,7 @@ const ChoosePlan = () => {
                   width: "170px",
                   height: "45px",
                 }}
-                variant="outlined"
+                variant="outlined"  
               >
                 Select
               </Button>
