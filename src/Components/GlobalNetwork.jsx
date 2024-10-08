@@ -1,7 +1,12 @@
-import { Box, ThemeProvider, Typography } from "@mui/material";
+import { Box, Grid2, ThemeProvider, Typography } from "@mui/material";
 import React from "react";
 import { Breakpointstheme } from "../Breakpoints Theme/Theme";
-import globeimage from '../Images/global.svg'
+import globeimage from "../Images/global.svg";
+import netflixicon from "../Images/netflix.svg";
+import redditicon from "../Images/reddit.svg";
+import amazonicon from "../Images/amazon2.svg";
+import discordicon from "../Images/discord.svg";
+import spotifyicon from "../Images/spotify.svg";
 
 const GlobalNetwork = () => {
   return (
@@ -42,9 +47,9 @@ const GlobalNetwork = () => {
               textAlign: "center",
               mt: "1rem",
               mb: {
-                mobile:'4rem',
-                laptop:'6rem',
-                desktop:'9rem'
+                mobile: "4rem",
+                laptop: "6rem",
+                desktop: "9rem",
               },
             }}
           >
@@ -55,17 +60,135 @@ const GlobalNetwork = () => {
           <Box
             component="img"
             sx={{
-                display:'block',
-                width:'100%',
-                height:'auto',
-                mb:'5rem'
+              display: "block",
+              width: "100%",
+              height: "auto",
+              mb: "5rem",
             }}
             alt="Globe Image"
             src={globeimage}
           />
 
           {/* companies icons */}
-          
+
+          <Grid2
+            display="flex"
+            justifyContent="center"
+            alignItems="center"
+            container
+            spacing={{
+                mobile:4,
+                laptop:8
+            }}
+          >
+            <Grid2
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              item
+              size={{
+                mobile: 12,
+                laptop: 2,
+              }}
+            >
+              <Box
+                component="img"
+                sx={{
+                  width: "170px",
+                  height: "60px",
+                }}
+                alt="neflix icon"
+                src={netflixicon}
+              />
+            </Grid2>
+            <Grid2
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              item
+              size={{
+                mobile: 12,
+                laptop: 2,
+              }}
+            >
+              <Box
+                component="img"
+                sx={{
+                  width: "170px",
+                  height: "60px",
+                }}
+                alt="neflix icon"
+                src={redditicon}
+              />
+            </Grid2>
+            <Grid2
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              item
+              size={{
+                mobile: 12,
+                laptop: 2,
+              }}
+            >
+              <Box
+                component="img"
+                sx={{
+                  width: "170px",
+                  height: "60px",
+                  objectFit: "cover",
+                }}
+                alt="neflix icon"
+                src={amazonicon}
+              />
+            </Grid2>
+            <Grid2
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              item
+              size={{
+                mobile: 12,
+                laptop: 2,
+              }}
+            >
+              <Box
+                component="img"
+                sx={{
+                  width: "170px",
+                  height: "60px",
+                }}
+                alt="neflix icon"
+                src={discordicon}
+              />
+            </Grid2>
+            <Grid2
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              item
+              size={{
+                mobile: 12,
+                laptop: 2,
+              }}
+            >
+              <Box
+                component="img"
+                sx={{
+                  width: "170px",
+                  height: "60px",
+                  position:{
+                    laptop:'relative'
+                  },
+                  left:{
+                    laptop:'35px'
+                  }
+                }}
+                alt="neflix icon"
+                src={spotifyicon}
+              />
+            </Grid2>
+          </Grid2>
         </Box>
       </ThemeProvider>
     </>
