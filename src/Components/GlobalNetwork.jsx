@@ -26,7 +26,7 @@ const GlobalNetwork = () => {
           <Typography
             sx={{
               color: "#0B132A",
-              fontWeight: "700",
+              fontWeight: "800",
               fontSize: {
                 mobile: "30px",
                 laptop: "35px",

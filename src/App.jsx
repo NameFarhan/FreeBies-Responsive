@@ -5,6 +5,7 @@ import Stats from './Components/Stats'
 import Features from './Components/Features'
 import ChoosePlan from './Components/ChoosePlan'
 import GlobalNetwork from './Components/GlobalNetwork'
+import Customers from './Components/Customers'
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
     <Features/>
     <ChoosePlan/>
     <GlobalNetwork/>
+    <Customers/>
     </>
   )
 }
