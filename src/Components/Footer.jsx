@@ -12,7 +12,7 @@ const Footer = () => {
     <ThemeProvider theme={Breakpointstheme}>
       <Box
         sx={{
-          backgroundColor: "#F8F8F8",
+          backgroundColor: "#f8f8f8",
           padding: {
             mobile: "5vh 10px",
             tablet: "5vh 30px",

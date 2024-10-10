@@ -7,6 +7,7 @@ import ChoosePlan from './Components/ChoosePlan'
 import GlobalNetwork from './Components/GlobalNetwork'
 import Customers from './Components/Customers'
 import Footer from './Components/Footer'
+import Subscribe from './Components/Subscribe'
 const App = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const App = () => {
     <ChoosePlan/>
     <GlobalNetwork/>
     <Customers/>
+    <Subscribe/>
     <Footer/>
     </>
   )
