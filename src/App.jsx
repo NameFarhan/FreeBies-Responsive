@@ -6,6 +6,7 @@ import Features from './Components/Features'
 import ChoosePlan from './Components/ChoosePlan'
 import GlobalNetwork from './Components/GlobalNetwork'
 import Customers from './Components/Customers'
+import Footer from './Components/Footer'
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
     <ChoosePlan/>
     <GlobalNetwork/>
     <Customers/>
+    <Footer/>
     </>
   )
 }
